@@ -1,0 +1,190 @@
+@import url('http://fonts.cdnfonts.com/css/nunito?styles=19288,19285,19283,19284,19286,19287,19289,19290,19279,19280,19281,19282,19277,19278');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary: #3e4095;
+    --secondary: #f0a400;
+    --gray: rgb(162, 162, 162);
+    --white: #f2f2f2;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #fffdfd;
+    width: 100%;
+}
+
+.dflex {
+    display: flex;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.f-column {
+    flex-direction: column;
+}
+
+.gap10 {
+    gap: 10px;
+}
+
+.gap-20 {
+    gap: 15px;
+}
+
+/* nav bar */
+
+nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: var(--white);
+    z-index: 10000;
+    backdrop-filter: blur(25px);
+}
+
+.nav-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+nav i {
+    color: var(--secondary);
+    font-size: 23px;
+    margin-right: 10px;
+}
+
+.contact-info-title {
+    font-size: 13px;
+    color: var(--gray);
+}
+
+.nav-social > div {
+    height: 35px;
+    width: 35px;
+    border-radius: 30px;
+    background-color: var(--primary);
+
+}
+
+.nav-social i {
+    font-size: 17px;
+    margin: auto;
+}
+
+nav a {
+    color: var(--white);
+}
+
+.nav-links a {
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: var(--secondary);
+}
+
+nav hr {
+    border: 1px solid rgba(192, 192, 192, 0.13);
+    margin: 0 80px;
+}
+
+nav .nav {
+    padding: 30px 80px;
+    justify-content: space-between;
+    /* box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.111); */
+    border-bottom: 1px solid rgba(192, 192, 192, 0.13);
+    position: sticky;
+    top: 0;
+}
+
+nav .nav ul {
+    list-style: none;
+    gap: 50px;
+}
+
+/* hero section */
+
+#hero {
+    width: 100%;
+    overflow-x: hidden;
+    color: var(--white);
+}
+
+#hero h1 {
+    font-size: 40px;
+    max-width: 900px;
+    text-align: center;
+}
+
+#hero p {
+    font-size: 20px;
+}
+
+#hero .hero-more {
+    position: relative;
+}
+
+#hero .hero-more i {
+    color: var(--secondary);
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+    animation: scroll-down 1.5s ease infinite;
+}
+
+.slide {
+    height: 100vh;
+    min-width: 100vw;
+    background-color: #000000d4;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    animation: slide 20s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+    30% {
+        transform: translateX(0%);
+    }
+    33% {
+        transform: translateX(-100%);
+    }
+    63% {
+        transform: translateX(-100%);
+    }
+    66% {
+        transform: translateX(-200%);
+    }
+    97% {
+        transform: translateX(-200%);
+    }
+    100% {
+        transform: translateX(-300%);
+    }
+}
+
+@keyframes scroll-down {
+    0%, 100% {
+        top: 0;
+    }
+    50% {
+        top: 50px;
+    }
+}
