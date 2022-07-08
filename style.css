@@ -544,8 +544,8 @@ footer {
 
 .footer-social-icons > div {
     background-color: var(--primary);
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     transition: .2s;
 }
