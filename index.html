@@ -8,12 +8,14 @@
 
     <!-- links -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- nav bar -->
 
-    <nav>
+    <nav id="nav">
         <!-- nav contact -->
         <div class="nav-contact">
             <!-- phone -->
@@ -51,7 +53,7 @@
                         <i class="fab fa-facebook-f"></i>
                     </div>
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/p/Cfv4cASKU9l/?igshid=YmMyMTA2M2Y=">
                     <div class="dflex a-center j-center">
                         <i class="fab fa-instagram    "></i>
                     </div>
@@ -64,14 +66,17 @@
         <hr>
 
         <!-- navbar -->
-        <div class="nav dflex a-center">
-            <div class="logo">LOGO</div>
+        <div class="nav dflex a-center wrap">
+            <div class="logo dflex a-center j-center">
+                <img src="images/favicon.png" alt="logo">
+            </div>
+            <label for="nav-menu"><i class="fas fa-bars menu-drop   "></i></label>
+            <input type="checkbox" id="nav-menu">
             <div class="nav-links">
-                <ul class="dflex gap10">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Products</a></li>
+                <ul class="dflex gap10 wrap">
+                    <li><a href="#" class="nav-link">Home</a></li>
+                    <li><a href="#About" class="nav-link">About</a></li>
+                    <li><a href="#Services" class="nav-link">Services</a></li>
                 </ul>
             </div>
         </div>
@@ -118,12 +123,12 @@
 
     <section id="about">
         <div class="about-content dflex j-btw a-center p-80 gap-20">
-            <div class="about-info">
+            <div class="about-info" data-aos="fade-up">
                 <h1 class="info-header">Your one-stop shop for high quality paints</h1>
                 <hr class="header-hr">
                 <p>BASITA is one of Nigeria's leading paint companies with a wealth of products and services designed to help you find the colours that you'll love in your home. We also give you the reflection and combination of who you are</p>
             </div>
-            <div class="about-img">
+            <div class="about-img" data-aos="fade-up" data-aos-delay="500">
                 <img src="images/paint.jpg" alt="brimix paint">
             </div>
         </div>
@@ -132,24 +137,24 @@
         
     <!-- section -->
         
-    <section id="design" class="about-info dflex a-center">
+    <section id="design" class="about-info dflex a-center" data-aos="fade-in">
         <div>
-            <h1 class="motto">Motto</h1>
-            <hr class="header-hr">
-            <h1 class="info-header">Master in paint and design technology</h1>
+            <h1 class="motto" data-aos="fade-down" data-aos-delay="500">Motto</h1>
+            <hr class="header-hr" data-aos="fade-left" data-aos-delay="900">
+            <h1 class="info-header" data-aos="fade-up" data-aos-delay="700">Master in paint and design technology</h1>
         </div>
     </section>
 
     <!-- section ends -->
 
     <section id="about2">
-        <div class="about-content dflex j-btw a-center p-80 gap-20 f-reverse">
+        <div id="services" class="about-content dflex j-btw a-center p-80 gap-20 f-reverse">
             <div class="about-info">
-                <h1 class="info-header">Are you in need of decorative finishes? We've got you!</h1>
-                <hr class="header-hr">
-                <p>We provide interior house paints, exterior house paints, decorative finishes, primers, stains and surface preparation products sold exclusively at The Home Depot</p>
+                <h1 class="info-header" data-aos="fade-down" data-aos-delay="500">Are you in need of decorative finishes? We've got you!</h1>
+                <hr class="header-hr" data-aos="fade-left" data-aos-delay="900">
+                <p data-aos="fade-up" data-aos-delay="700">We provide interior house paints, exterior house paints, decorative finishes, primers, stains and surface preparation products sold exclusively at The Home Depot</p>
             </div>
-            <div class="about-img">
+            <div class="about-img" data-aos="fade-up">
                 <img src="images/wall-art2.jpg" alt="brimix paint">
             </div>
         </div>
@@ -158,11 +163,11 @@
     <section id="about3">
         <div class="about-content dflex j-btw a-center p-80 gap-20">
             <div class="about-info">
-                <h1 class="info-header">We are always here for you!</h1>
-                <hr class="header-hr">
-                <p>Need help making decisions on what colors or design patterns would be best for your home? Feel free to contact us. We are always available to offer professional advise!</p>
+                <h1 class="info-header" data-aos="fade-down">We are always here for you!</h1>
+                <hr class="header-hr" data-aos="fade-left" data-aos-delay="500">
+                <p data-aos-delay="300">Need help making decisions on what colors or design patterns would be best for your home? Feel free to contact us. We are always available to offer professional advise!</p>
             </div>
-            <div class="about-img">
+            <div class="about-img" data-aos="fade-up" data-aos-delay="700">
                 <img src="images/roller.jpg" alt="brimix paint">
             </div>
         </div>
@@ -174,16 +179,16 @@
 
     <section id="projects" class="p-80">
         <div class="about-info dflex j-center f-column a-center">
-            <h1 class="info-header">Here are some of our projects</h1>
-            <hr class="header-hr">
+            <h1 class="info-header" data-aos="fade-down">Here are some of our projects</h1>
+            <hr class="header-hr" data-aos="fade-down">
 
             <div class="projects">
-                <div class="project" style="background-image: url(images/projects/img1.jpg);"></div>
-                <div class="project" style="background-image: url(images/projects/img2.jpg);"></div>
-                <div class="project" style="background-image: url(images/projects/img3.jpg);"></div>
-                <div class="project" style="background-image: url(images/projects/img4.jpg);"></div>
-                <div class="project" style="background-image: url(images/projects/img5.jpg);"></div>
-                <div class="project" style="background-image: url(images/projects/img6.jpg);"></div>
+                <div class="project" style="background-image: url(images/projects/img1.jpg);" data-aos="fade-up" data-aos-delay="100"></div>
+                <div class="project" style="background-image: url(images/projects/img2.jpg);" data-aos="fade-up" data-aos-delay="300"></div>
+                <div class="project" style="background-image: url(images/projects/img3.jpg);" data-aos="fade-up" data-aos-delay="500"></div>
+                <div class="project" style="background-image: url(images/projects/img4.jpg);" data-aos="fade-up" data-aos-delay="700"></div>
+                <div class="project" style="background-image: url(images/projects/img5.jpg);" data-aos="fade-up" data-aos-delay="900"></div>
+                <div class="project" style="background-image: url(images/projects/img6.jpg);" data-aos="fade-up" data-aos-delay="1100"></div>
             </div>
         </div>
     </section>
@@ -193,46 +198,71 @@
     <!-- footer  -->
 
     <!-- footer ends -->
-    <footer>
-        <div class="footer p-80 dflex j-btw">
-            <div class="footer-logo">LOGO</div>
-
-            <!-- contact -->
-            <div class="footer-contact">
-                <h2>Contact us</h2>
-                <hr class="header-hr">
-                <div class="footer-contact-item dflex gap10 a-center">
-                    <i class="fas fa-phone"></i>
-                    <a href="tel:+2349038511002">+234-903-851-1002</a>
+    <footer class="dflex j-center a-center f-column">
+        <div class="footer p-80 dflex f-column">
+            <div class="footer-info dflex j-btw">
+                <div class="footer-logo" data-aos="fade-up" data-aos-delay="300">
+                    <img src="images/logo.png" alt="">
                 </div>
-                <div class="footer-contact-item dflex gap10 a-center">
-                    <i class="fas fa-envelope"></i>
-                    <a href="mailto:basitabrimix@gmail.com">basitabrimix@yahoo.com</a>
-                </div>
-                <div class="footer-contact-item dflex gap10 a-center">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <p>Onitsha, Anambra State, Nigeria</p>
-                </div>
-            </div>
-
-            <!-- social -->
-            <div class="footer-social">
-                <h2>Follow us on social media</h2>
-                <hr class="header-hr">
-                <div class="nav-social footer-social-icons dflex gap10">
-                    <div class="dflex a-center j-center">
-                        <a href="#">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
+    
+                <!-- contact -->
+                <div class="footer-contact">
+                    <h2 data-aos="fade-up">Contact us</h2>
+                    <hr data-aos="fade-up" data-aos-delay="200" class="header-hr">
+                    <div class="footer-contact-item dflex gap10 a-center" data-aos="fade-up" data-aos-delay="400">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:+2349038511002">+234-903-851-1002</a>
                     </div>
-                    <div class="dflex a-center j-center">
-                        <a href="#">
-                            <i class="fab fa-instagram"></i>
-                        </a>
+                    <div class="footer-contact-item dflex gap10 a-center" data-aos="fade-up" data-aos-delay="600">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:basitabrimix@gmail.com">basitabrimix@yahoo.com</a>
+                    </div>
+                    <div class="footer-contact-item dflex gap10 a-center" data-aos="fade-up" data-aos-delay="800">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Onitsha, Anambra State, Nigeria</p>
                     </div>
                 </div>
+    
+                <!-- social -->
+                <div class="footer-social">
+                    <h2 data-aos="fade-up">Follow us <span>on social media</span></h2>
+                    <hr class="header-hr" data-aos="fade-up" data-aos-delay="200">
+                    <div class="nav-social footer-social-icons dflex gap10" data-aos="fade-up" data-aos-delay="400">
+                        <div class="dflex a-center j-center">
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="dflex a-center j-center">
+                            <a href="https://www.instagram.com/p/Cfv4cASKU9l/?igshid=YmMyMTA2M2Y=">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div class="footer-attr" data-aos="fade-up" data-aos-delay="800">&copy; Basita Brimix <span class="date"></span></div>
         </div>
     </footer>
+
+    <!-- back-to-top button starts -->
+
+    <a href="#">
+        <button class="top-btn">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </a>
+
+    <!-- back-to-top button ends -->
+
+    <!-- script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: "true"
+        });
+    </script>
+    <script src="main.js"></script>
 </body>
 </html>
