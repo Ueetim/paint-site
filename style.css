@@ -639,7 +639,7 @@ footer {
         transform: scale(1);
     }
     50% {
-        transform: scale(1.3);
+        transform: scale(1.2);
     }
 }
 
@@ -648,3 +648,86 @@ footer {
 }
 
 /* top btn ends */
+
+/* con btn */
+
+.contact-popup {
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    display: none;
+}
+
+.con-btn {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: var(--secondary);
+    color: var(--primary);
+    border: none;
+    font-size: 18px;
+    animation: outline 2s ease-in infinite;
+}
+
+@keyframes outline {
+    0%, 100% {
+        outline: 0px solid #f0a4003a;
+    }
+    50% {
+        outline: 10px solid #f0a4003a;
+    }
+}
+
+.contact-popup-info p, .contact-popup-info a, .contact-popup-info > div > i {
+    font-size: 14px;
+    color: var(--primary);
+    
+}
+
+.contact-popup-info p:hover, .contact-popup-info a:hover, .contact-popup-info > div > i:hover {
+    font-size: 14px;
+    color: var(--primary);
+
+}
+
+.contact-popup-info {
+    background-color: var(--secondary);
+    padding: 10px 20px;
+    height: 150px;
+    border-radius: 5px;
+    position: absolute;
+    top: -170px;
+    right: 0;
+}
+
+.caret-icon {
+    font-size: 50px;
+    color: var(--secondary);
+    position: absolute;
+    bottom: -20px;
+    right: 5px;
+}
+
+.contact-popup-info .cancel {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    font-size: 30px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .contact-popup{
+        display: block;
+    }
+
+    .contact-popup-info {
+        display: none;
+    }
+}
+
+.d-block {
+    display: block;
+}
+
+/* con btn ends */
