@@ -533,7 +533,11 @@ nav .nav ul {
 
 @media only screen and (max-width: 500px) {
     #services {
-        padding: 25px 0%;
+        padding: 50px 0%;
+    }
+
+    #services .info-header {
+        padding: 0 50px;
     }
 }
 
