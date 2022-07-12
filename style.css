@@ -654,13 +654,13 @@ footer {
 .contact-popup {
     position: fixed;
     bottom: 100px;
-    right: 30px;
+    right: 21px;
     display: none;
 }
 
 .con-btn {
-    height: 40px;
-    width: 40px;
+    height: 55px;
+    width: 55px;
     border-radius: 50%;
     background-color: var(--secondary);
     color: var(--primary);
@@ -671,29 +671,33 @@ footer {
 
 @keyframes outline {
     0%, 100% {
-        outline: 0px solid #f0a4003a;
+        box-shadow: 0px 0px 0px 0px #f0a4003a;
+        
     }
     50% {
-        outline: 10px solid #f0a4003a;
+        box-shadow: 0px 0px 0px 10px #f0a4003a;
     }
 }
 
 .contact-popup-info p, .contact-popup-info a, .contact-popup-info > div > i {
-    font-size: 14px;
+    font-size: 17px;
     color: var(--primary);
     
 }
 
 .contact-popup-info p:hover, .contact-popup-info a:hover, .contact-popup-info > div > i:hover {
-    font-size: 14px;
     color: var(--primary);
+}
 
+.contact-popup-info .footer-contact-item:hover, .contact-popup-info .footer-contact-item:hover > a {
+    color: var(--primary);
 }
 
 .contact-popup-info {
     background-color: var(--secondary);
     padding: 10px 20px;
-    height: 150px;
+    /* height: 200px; */
+    width: max-content;
     border-radius: 5px;
     position: absolute;
     top: -170px;
@@ -711,8 +715,10 @@ footer {
 .contact-popup-info .cancel {
     position: absolute;
     top: 0px;
-    right: 5px;
+    right: 15px;
     font-size: 30px;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 
