@@ -532,8 +532,8 @@ nav .nav ul {
 }
 
 @media only screen and (max-width: 500px) {
-    #services .project {
-        padding: 25px 10%;
+    #services {
+        padding: 25px 0%;
     }
 }
 
