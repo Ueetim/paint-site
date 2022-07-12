@@ -507,6 +507,38 @@ nav .nav ul {
     }
 }
 
+/* services section */
+
+#services {
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 50px;
+}
+
+#services .projects {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+#services .project {
+    height: max-content;
+    padding: 25px;
+    font-size: 20px;
+    color: var(--gray-dark);
+}
+
+#services .project i, #services .project span {
+    font-size: 60px;
+    color: var(--primary);
+}
+
+@media only screen and (max-width: 500px) {
+    #services .project {
+        padding: 25px 10%;
+    }
+}
+
+/* services section ends */
+
 /* footer */
 
 footer {
