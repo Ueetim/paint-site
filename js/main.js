@@ -71,22 +71,22 @@ window.addEventListener("scroll", function () {
 });
 
 
-// contact button on mobile
-let contactBtn = document.querySelector('.con-btn');
-let contactInfo = document.querySelector('.contact-popup-info');
-let cancelBtn = contactInfo.querySelector('.cancel');
+// // contact button on mobile
+// let contactBtn = document.querySelector('.con-btn');
+// let contactInfo = document.querySelector('.contact-popup-info');
+// let cancelBtn = contactInfo.querySelector('.cancel');
 
-contactBtn.addEventListener('click', ()=>{
-  contactInfo.style.display = "block";
-  contactInfo.animate([
-    {opacity: 0}, {opacity: 1}
-  ], 
-  {
-    duration: 400,
-  })
+// contactBtn.addEventListener('click', ()=>{
+//   contactInfo.style.display = "block";
+//   contactInfo.animate([
+//     {opacity: 0}, {opacity: 1}
+//   ], 
+//   {
+//     duration: 400,
+//   })
   
-})
+// })
 
-cancelBtn.addEventListener('click', ()=>{
-  contactInfo.style.display = "none";
-})
+// cancelBtn.addEventListener('click', ()=>{
+//   contactInfo.style.display = "none";
+// })
