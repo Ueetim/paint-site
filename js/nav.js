@@ -1,7 +1,7 @@
 let nav = `
 <nav id="nav">
 <!-- nav contact -->
-<div class="nav-contact">
+<div class="nav-contact m-1300 m-auto">
     <!-- phone -->
     <div class="nav-contact-call dflex a-center">
         <i class="fas fa-phone"></i>
@@ -16,7 +16,7 @@ let nav = `
         <i class="fas fa-envelope"></i>
         <div class="nav-contact-info">
             <p class="contact-info-title">Send email</p>
-            <a href="mailto:basitabrimix@gmail.com">basitabrimix@yahoo.com</a>
+            <a href="mailto:basitabrimix@yahoo.com">basitabrimix@yahoo.com</a>
         </div>
     </div>
 
@@ -50,17 +50,17 @@ let nav = `
 <hr>
 
 <!-- navbar -->
-<div class="nav dflex a-center wrap">
+<div class="nav dflex a-center wrap m-1300 m-auto">
     <div class="logo dflex a-center j-center">
-        <img src="images/favicon.png" alt="logo">
+        <img src="images/logo.png" alt="logo">
     </div>
     <label for="nav-menu"><i class="fas fa-bars menu-drop   "></i></label>
     <input type="checkbox" id="nav-menu">
     <div class="nav-links">
         <ul class="dflex gap10 wrap">
-            <li><a href="#" class="nav-link"><p>Home</p></a></li>
-            <li><a href="#about" class="nav-link"><p>About</p></a></li>
-            <li><a href="#services" class="nav-link"><p>Services</p></a></li>
+            <li><a href="index.html" class="nav-link"><p>Home</p></a></li>
+            <li><a href="#" class="nav-link"><p>Products</p></a></li>
+            <li><a href="projects.html" class="nav-link"><p>Projects</p></a></li>
         </ul>
     </div>
 </div>

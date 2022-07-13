@@ -1,5 +1,5 @@
 let footer = `<footer class="dflex j-center a-center f-column">
-<div class="footer p-80 dflex f-column">
+<div class="footer p-80 dflex f-column  m-1300 m-auto">
     <div class="footer-info dflex j-btw">
         <div class="footer-logo" data-aos="fade-up" data-aos-delay="300">
             <img src="images/logo.png" alt="">
@@ -15,7 +15,7 @@ let footer = `<footer class="dflex j-center a-center f-column">
             </div>
             <div class="footer-contact-item dflex gap10 a-center" data-aos="fade-up" data-aos-delay="600">
                 <i class="fas fa-envelope"></i>
-                <a href="mailto:basitabrimix@gmail.com">basitabrimix@yahoo.com</a>
+                <a href="mailto:basitabrimix@yahoo.com">basitabrimix@yahoo.com</a>
             </div>
             <div class="footer-contact-item dflex gap10 a-center" data-aos="fade-up" data-aos-delay="800">
                 <i class="fas fa-map-marker-alt"></i>
