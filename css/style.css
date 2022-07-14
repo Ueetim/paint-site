@@ -742,7 +742,8 @@ footer {
 }
 
 .contact-popup-info {
-    background-color: var(--secondary);
+    /* background-color: var(--secondary); */
+    background-color: #bbbbbb;
     padding: 10px 20px;
     /* height: 200px; */
     width: max-content;
@@ -754,7 +755,7 @@ footer {
 
 .caret-icon {
     font-size: 50px;
-    color: var(--secondary);
+    color: #bbbbbb;
     position: absolute;
     bottom: -20px;
     right: 5px;
@@ -772,6 +773,16 @@ footer {
 
 .contact-popup:hover .contact-popup-info {
     display: block;
+    animation: fade-in .5s ease;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 /* con btn ends */
