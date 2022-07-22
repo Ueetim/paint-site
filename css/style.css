@@ -714,6 +714,7 @@ footer {
     color: var(--primary);
     border: none;
     font-size: 18px;
+    outline: none;
     animation: outline 2s ease-in infinite;
 }
 
