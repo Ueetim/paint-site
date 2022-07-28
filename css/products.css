@@ -66,6 +66,7 @@
     width: 40px;
     background-color: #f2f2f2;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .cancel-con {
@@ -91,6 +92,7 @@
     border: none;
     font-size: 20px;
     outline: none;
+    cursor: pointer;
 }
 
 .product-popup-img, .product-popup-img img {
@@ -110,23 +112,17 @@
 
 .product-popup-info {
     margin: 0px 10px 10px 10px;
-    /* padding-left: 80px; */
-    /* float: right; */
 }
-
-/* .product-popup::-webkit-scrollbar {
-    width: 30px;
-} */
 
 .product-popup::-webkit-scrollbar {
     background-color: rgb(225, 225, 225);
-    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.7);
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.344);
     border-radius: 4px;
-    width: 10px;
+    width: 7px;
 }
 
 .product-popup::-webkit-scrollbar-thumb {
-    background-color: var(--primary);
+    background-color: #727272;
     border-radius: 4px;
 }
 
