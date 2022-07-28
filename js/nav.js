@@ -52,14 +52,14 @@ let nav = `
 <!-- navbar -->
 <div class="nav dflex a-center wrap m-1300 m-auto">
     <div class="logo dflex a-center j-center">
-        <img src="images/logo.png" alt="logo">
+        <img src="images/favicon.png" alt="logo">
     </div>
     <label for="nav-menu"><i class="fas fa-bars menu-drop   "></i></label>
     <input type="checkbox" id="nav-menu">
     <div class="nav-links">
         <ul class="dflex gap10 wrap">
             <li><a href="index.html" class="nav-link"><p>Home</p></a></li>
-            <li><a href="#" class="nav-link"><p>Products</p></a></li>
+            <li><a href="products.html" class="nav-link"><p>Products</p></a></li>
             <li><a href="projects.html" class="nav-link"><p>Projects</p></a></li>
         </ul>
     </div>
