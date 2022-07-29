@@ -1,3 +1,7 @@
+.projects {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
 .project-img {
     background-size:contain; 
     background-position: center;
@@ -152,4 +156,8 @@
     .product-popup-img {
         float: none;
     }
+}
+
+.prod-name {
+    font-size: 16px;
 }
