@@ -17,8 +17,8 @@ let prodName = document.querySelector('.prod-name');
 // }
 
 let prodDetails = [
-    ['prod1', 'Basita Diamond Satin', './../images/products/diamond-satin.png', 'BASITA DIAMOND SPIRIT SATIN is an acrylic paint and primer that contains an antimicrobial agent to protect the surface of the paint. It contains a significant quantity of talcum. It can be used for interior walls.\n\n Each 24 litre bucket covers more than 120 square meters, 12 litres covers up to 65 square meters, and 5 litres covers up to 30 square meters.'],
-    ['prod2', 'Basita Silver Spirit Satin Matt', './../images/products/sliver-satin.png', 'BASITA SILVER SPIRIT SATIN MATT in an interior matte paint. The anti-microbial, mildew-resistant finish has excellent durability, washability and stain resistance. It contains a significant quantity of talcum. It can be used for interior and exterior walls.\n\n Each 24 litres covers more than 120 square meters, 12 litres covers up to 65 square meters, and 5 litres covers up to 30 square meters.']
+    ['prod1', 'Basita Diamond Satin', '../images/products/diamond-satin.png', 'BASITA DIAMOND SPIRIT SATIN is an acrylic paint and primer that contains an antimicrobial agent to protect the surface of the paint. It contains a significant quantity of talcum. It can be used for interior walls.\n\n Each 24 litre bucket covers more than 120 square meters, 12 litres covers up to 65 square meters, and 5 litres covers up to 30 square meters.'],
+    ['prod2', 'Basita Silver Spirit Satin Matt', '../images/products/sliver-satin.png', 'BASITA SILVER SPIRIT SATIN MATT in an interior matte paint. The anti-microbial, mildew-resistant finish has excellent durability, washability and stain resistance. It contains a significant quantity of talcum. It can be used for interior and exterior walls.\n\n Each 24 litres covers more than 120 square meters, 12 litres covers up to 65 square meters, and 5 litres covers up to 30 square meters.']
 ]
 
 let viewBtn = document.querySelectorAll('.info-btn');
