@@ -332,6 +332,10 @@ nav .nav ul {
     .slide {
         padding: 0 15px;
     }
+
+    #hero h1 {
+        font-size: 30px;
+    }
 }
 
 /* about section */
@@ -356,6 +360,16 @@ nav .nav ul {
     color: var(--gray-dark);
     margin-top: 10px;
     line-height: 35px;
+}
+
+@media only screen and (max-width: 600px){
+    .about-info .info-header {
+        font-size: 30px;
+    }
+
+    .about-info .info-header ~ p {
+        font-size: 18px;
+    }
 }
 
 .about-reverse {
@@ -461,7 +475,7 @@ nav .nav ul {
 
 @media only screen and (max-width: 500px) {
     .about-content, #about2 .about-content {
-        padding: 50px;
+        padding: 50px 30px;
     }
 
     #about2 .about-content {
@@ -498,11 +512,12 @@ nav .nav ul {
 
 @media only screen and (max-width: 500px) {
     #projects .about-info {
-        padding: 50px;
+        padding: 30px;
     }
 
     .projects {
         grid-template-columns: 1fr;
+        
     }
 
     #design {
@@ -510,7 +525,7 @@ nav .nav ul {
     }
 
     #design > div {
-        padding: 50px;
+        padding: 30px;
         text-align: center;
     }
 
@@ -551,6 +566,10 @@ nav .nav ul {
 
     #services .info-header {
         padding: 0 50px;
+    }
+
+    #services p {
+        font-size: 17px;
     }
 }
 
@@ -706,6 +725,7 @@ footer {
     bottom: 100px;
     right: 21px;
     display: none;
+    /* max-width: 100px; */
 }
 
 .con-btn {
@@ -749,10 +769,11 @@ footer {
     background-color: #bbbbbb;
     padding: 10px 20px;
     /* height: 200px; */
-    width: max-content;
+    /* width: max-content; */
+    width: 270px;
     border-radius: 5px;
     position: absolute;
-    top: -170px;
+    top: -185px;
     right: 0;
 }
 
