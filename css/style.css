@@ -334,7 +334,7 @@ nav .nav ul {
     }
 
     #hero h1 {
-        font-size: 30px;
+        font-size: 35px;
     }
 }
 
@@ -365,10 +365,6 @@ nav .nav ul {
 @media only screen and (max-width: 600px){
     .about-info .info-header {
         font-size: 30px;
-    }
-
-    .about-info .info-header ~ p {
-        font-size: 18px;
     }
 }
 
@@ -475,7 +471,7 @@ nav .nav ul {
 
 @media only screen and (max-width: 500px) {
     .about-content, #about2 .about-content {
-        padding: 50px 30px;
+        padding: 50px 20px;
     }
 
     #about2 .about-content {
@@ -512,7 +508,7 @@ nav .nav ul {
 
 @media only screen and (max-width: 500px) {
     #projects .about-info {
-        padding: 30px;
+        padding: 20px;
     }
 
     .projects {
@@ -525,7 +521,7 @@ nav .nav ul {
     }
 
     #design > div {
-        padding: 30px;
+        padding: 20px;
         text-align: center;
     }
 
@@ -566,10 +562,6 @@ nav .nav ul {
 
     #services .info-header {
         padding: 0 50px;
-    }
-
-    #services p {
-        font-size: 17px;
     }
 }
 
